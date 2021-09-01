@@ -23,11 +23,7 @@ if(Test-Path -Path $Log) {
 
 
    } catch {
-
-
-
-
-
+    Write-Host "An unexpected error has occurred. $($_)" 
    }
 
    Write-Host "==================== END $(Get-Date) ===================="
